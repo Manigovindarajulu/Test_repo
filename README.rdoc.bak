@@ -2,7 +2,7 @@
 
 Step # 1 - clone this code on your machine
 
- its wrong clone...
+  git clone git@github.com:Manigovindarajulu/Moostrap_Playbook.git
   
 Step # 2 - create the gem on your local machine
 
