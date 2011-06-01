@@ -1,0 +1,45 @@
+= moostrap
+
+Step # 1 - clone this code on your machine
+
+  git clone git@github.com:Manigovindarajulu/Moostrap_Playbook.git
+  
+Step # 2 - create the gem on your local machine
+
+  cd <moostrap root>
+  rake install
+  
+Step # 3 - MOOsTrap your app!
+
+  moostrap create <moofwd_rca_app_full_path> <moofwd_html5_app_root_path>
+  
+  #remember - moofwd_rca_app_full_path is the FULL path to the app, for e.g., /loc/workspace/Moopon/applications/moopon-release
+  #however - moofwd_html5_app_root_path is the path UPTO the ROOT of the html5 app (the basename will be the same as rca app name) for e.g., /loc/html5 --> this is gonna create an html5 app /loc/html5/moopon-release
+  
+  moostrap playbookApp  <moofwd_rca_app_full_path> <Application Name>
+
+  moostrap generatePBApp <generated playbook application folder name>
+  
+  moostrap installApp <application name> <device ip address> <password>
+
+
+For usage just type moostrap without any command
+
+
+
+
+== Contributing to moostrap
+ 
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+== Copyright
+
+Copyright (c) 2011 Manigovindarajulu. See LICENSE.txt for
+further details.
+
