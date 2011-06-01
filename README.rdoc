@@ -1,4 +1,4 @@
-= moostrap moostrap moostrap
+= moostrap
 
 Step # 1 - clone this code on your machine
 
